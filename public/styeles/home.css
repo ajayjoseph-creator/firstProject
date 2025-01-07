@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px; /* Added more padding */
+  background-color: white; /* Set background to white */
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Logo Styles - Image */
+.logo img {
+  width: 120px; /* Set the width of the logo */
+  height: auto;
+  margin-right: 30px; /* Space between logo and search bar */
+}
+
+/* Search Bar Container */
+.search-container {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 30px; /* Space between search bar and navigation links */
+}
+
+.search-bar {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+/* Navbar Links */
+nav {
+  margin-right: 30px; /* Space between nav links and icons */
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Icons Section */
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+}
